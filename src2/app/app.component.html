@@ -1,0 +1,5 @@
+<div style="text-align: center;">
+    <h1>Welcome</h1>
+    <app-child [MessageFromParent] = "Message" (Myevent) = "MessageFromChild=$event"></app-child>
+    <h2>{{"Message from child : "+MessageFromChild}}</h2>
+</div>
